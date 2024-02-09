@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* Va a mantener el borde de la caja */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+/* animacion una  */
+
+.texto-animado{
+    /* Una animacion esta compuesta por un nombre y un tiempo */
+    animation-name: texto-volador;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    border: solid;
+}
+
+/* @Keyframe con esta funcion se activa la animacion */
+/* Activa animacion con Keyframes */
+
+@keyframes texto-volador{
+
+    from{
+        margin-left: 100%;
+        width: 300%;
+        background-color: aqua;
+        border: none;
+    }
+    /* El to sirve para que cuando la animacion llegue al lado contrario haga los efectos
+    descritos que le pusiste al to */
+    to{
+        margin-left: -100%;
+        background-color: brown;
+        color: white;
+        border: none;
+    }
+}
+
+/* paso 1 -nombras la animacion y la duracion */
+
+.image-animada {
+    animation-name: image-resize;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+@keyframes image-resize{
+    from{
+        width: 20px;
+        height: 20px;
+    }
+
+    to{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.box-uno{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: box-animation;
+    animation-duration: 10s;
+}
+
+@keyframes box-animation{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: sandybrown;
+    }
+    50%{
+        background-color: rgb(34, 0, 128);
+    }
+    75%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+.ball-uno {
+      height: 100px;
+      width: 100px;
+      border: solid green 2px;
+      border-radius: 50%;
+      animation-name: ball-animation;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      background-color: blue;
+}
+
+@keyframes ball-animation{
+    from{
+        transform: translateY(0px);
+    }
+
+    to{
+        transform: translateY(-130px);
+    }
+}
+

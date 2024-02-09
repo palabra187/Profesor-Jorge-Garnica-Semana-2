@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.seccion-uno{
+    margin-top: 25px;
+    /* margin: 25px; */
+}
+
+.home{
+    color: #3B06D2;
+    margin: 25px;
+
+}
+
+.parrafo-uno{
+    margin-top: 25px;
+    margin: 25px;
+}
+
+.imagen-uno{
+    width: 385px;
+    height: 182px;
+    top: 330px;
+    left: 38px;
+    margin: 25px;
+}
+
+.imagen-dos{
+    width: 385px;
+    height: 182px;
+    top: 330px;
+    left: 453px;
+    margin: 25px;
+
+}
+
+.imagen-tres{
+    width: 385px;
+    height: 182px;
+    top: 330px;
+    left: 868px;
+    margin: 25px;
+
+}
+
+.servicios {
+    color: #D206B2;
+    margin: 25px;
+
+}
+
+.parrafo-dos{
+    margin: 25px;
+}
+
+.parrafo-tres{
+    margin: 25px;
+}
+
+.imagen-cuatro{
+    width: 385px;
+    height: 182px;
+    top: 843px;
+    left: 43px;
+    margin: 25px;
+
+}
+
+.imagen-cinco{
+    width: 385px;
+    height: 182px;
+    top: 843px;
+    left: 458px;
+    margin: 25px;
+
+}
+
+.imagen-seis{
+    width: 385px;
+    height: 182px;
+    top: 843px;
+    left: 873px;
+    margin: 25px;
+
+}
+
+.servicio-uno{
+  color: red;
+  margin: 50px;
+
+}
+
+.servicio-dos{
+    color: blue;
+    margin: 50px;
+}
+
+.servicio-tres{
+    color: #D79B00;
+    margin: 50px;
+}
+
+.servicio-cuatro{
+    color: #03B2B2;
+    margin: 50px;
+}
+
+.portafolio{
+    margin: 25px;
+    color: #AAD206;
+
+}
+
+.parrafo-cuatro{
+    margin: 25px;
+}
+
+.parrafo-cinco{
+    margin: 25px;
+}
+
+.imagen-siete{
+    width: 385px;
+    height: 182px;
+    top: 1566px;
+    left: 43px;
+    margin: 25px;
+
+}
+
+.imagen-ocho{
+    width: 385px;
+    height: 182px;
+    top: 1566px;
+    left: 458px;
+    margin: 25px;
+
+}
+
+.imagen-nueve{
+    width: 385px;
+    height: 182px;
+    top: 1566px;
+    left: 873px;
+    margin: 25px;
+
+}
+
+.servicio-cinco{
+    color: #AE8800;
+    margin: 50px;
+}
+
+.servicio-seis{
+    color: #AE280B;
+    margin: 50px;
+}
+
+.servicio-siete{
+    color: #060564;
+    margin: 50px;
+}
+
+.servicio-ocho{
+    color: #637300;
+    margin: 50px;
+}
+
+
+
